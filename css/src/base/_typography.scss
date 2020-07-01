@@ -1,0 +1,25 @@
+@use "../abstracts/type";
+
+h1 {
+  @include type.heading-1;
+}
+
+h2 {
+  @include type.heading-2;
+}
+
+h3 {
+  @include type.heading-3;
+}
+
+.is-wysiwyg {
+
+  * + * {
+    margin-top: 2rem;
+  }
+
+  li {
+    margin-top: 0.5rem;
+    list-style: inside;
+  }
+}

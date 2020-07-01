@@ -1,0 +1,27 @@
+[type="color"],
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="search"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
+textarea,
+[multiple] {
+  padding: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+[type="submit"],
+button {
+  appearance: none;
+}
