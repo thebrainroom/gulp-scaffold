@@ -1,0 +1,8 @@
+# Ignore Sass cache & node_modules
+.sass-cache*
+node_modules/*
+
+# Ignore distribution files
+css/*.css
+scripts/*.js
+*.map
